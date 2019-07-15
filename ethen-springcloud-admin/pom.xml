@@ -48,11 +48,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--添加admin依赖-->
+		<!--添加社区springboot-admin依赖-->
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-server</artifactId>
-			<version>2.1.0</version>
+			<version>2.1.6</version>
 		</dependency>
 
 		<!--<dependency>-->
