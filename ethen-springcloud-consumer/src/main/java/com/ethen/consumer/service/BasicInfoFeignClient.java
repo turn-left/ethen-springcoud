@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 使用feign调用远程服务
- * todo 待启用ribbon hystrix等特性 fallback configuration
+ * todo 待启用hystrix`等特性` fallback configuration
  */
 @FeignClient(name = "ETHEN-SPRINGCLOUD-APP")
 public interface BasicInfoFeignClient {
