@@ -1,0 +1,21 @@
+logging:
+  level:
+   root: info
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+     hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/ethen-springcloud?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 10010
+
+
