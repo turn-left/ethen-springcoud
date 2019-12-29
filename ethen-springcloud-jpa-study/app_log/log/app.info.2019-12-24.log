@@ -1,0 +1,124 @@
+2019-12-24 00:03:34.432 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarting:55 -Starting EthenSpringcloudJpaStudyApplicationTests on ethen with PID 10532 (started by ethen in C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study)
+2019-12-24 00:03:34.437 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-24 00:03:36.893 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 00:03:37.124 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 204ms. Found 1 repository interfaces.
+2019-12-24 00:03:39.948 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 00:03:41.941 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-24 00:03:42.083 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-24 00:03:42.391 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-24 00:03:43.334 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-24 00:03:43.347 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-24 00:03:43.798 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-12-24 00:03:43.837 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-24 00:03:45.390 INFO [main]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-24 00:03:45.407 INFO [main]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:03:46.930 WARN [main]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-24 00:03:47.760 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:03:49.513 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarted:61 -Started EthenSpringcloudJpaStudyApplicationTests in 16.689 seconds (JVM running for 24.697)
+2019-12-24 00:05:07.086 WARN [HikariPool-1 housekeeper]com.zaxxer.hikari.pool.HikariPool.run:787 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s183ms853µs700ns).
+2019-12-24 00:05:41.170 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:05:41.173 INFO [SpringContextShutdownHook]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:05:41.179 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-12-24 00:05:41.196 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-12-24 00:08:05.151 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarting:55 -Starting EthenSpringcloudJpaStudyApplicationTests on ethen with PID 1568 (started by ethen in C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study)
+2019-12-24 00:08:05.156 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-24 00:08:07.084 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 00:08:07.307 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 197ms. Found 1 repository interfaces.
+2019-12-24 00:08:08.469 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 00:08:09.131 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-24 00:08:09.588 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-24 00:08:10.075 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-24 00:08:11.409 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-24 00:08:11.423 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-24 00:08:12.062 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-12-24 00:08:12.108 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-24 00:08:13.927 INFO [main]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-24 00:08:13.945 INFO [main]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:08:15.633 WARN [main]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-24 00:08:16.430 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:08:17.611 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarted:61 -Started EthenSpringcloudJpaStudyApplicationTests in 14.431 seconds (JVM running for 20.993)
+2019-12-24 00:11:33.548 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarting:55 -Starting EthenSpringcloudJpaStudyApplicationTests on ethen with PID 11076 (started by ethen in C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study)
+2019-12-24 00:11:33.553 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-24 00:11:35.442 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 00:11:35.645 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces.
+2019-12-24 00:11:36.501 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 00:11:37.119 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-24 00:11:37.455 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-24 00:11:37.819 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-24 00:11:38.883 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-24 00:11:38.895 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-24 00:11:39.261 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-12-24 00:11:39.308 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-24 00:11:41.080 INFO [main]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-24 00:11:41.100 INFO [main]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:11:42.601 WARN [main]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-24 00:11:43.186 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:11:44.089 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarted:61 -Started EthenSpringcloudJpaStudyApplicationTests in 14.023 seconds (JVM running for 17.313)
+2019-12-24 00:11:44.717 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:11:44.721 INFO [SpringContextShutdownHook]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:11:44.726 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-12-24 00:11:44.744 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-12-24 00:14:41.119 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarting:55 -Starting EthenSpringcloudJpaStudyApplicationTests on ethen with PID 10676 (started by ethen in C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study)
+2019-12-24 00:14:41.122 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-24 00:14:43.041 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 00:14:43.156 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 99ms. Found 1 repository interfaces.
+2019-12-24 00:14:43.686 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 00:14:44.111 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-24 00:14:44.353 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-24 00:14:44.621 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-24 00:14:45.338 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-24 00:14:45.345 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-24 00:14:45.602 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-12-24 00:14:45.638 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-24 00:14:47.102 INFO [main]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-24 00:14:47.118 INFO [main]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:14:48.528 WARN [main]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-24 00:14:49.237 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:14:50.130 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarted:61 -Started EthenSpringcloudJpaStudyApplicationTests in 11.0 seconds (JVM running for 13.027)
+2019-12-24 00:15:20.808 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:15:20.811 INFO [SpringContextShutdownHook]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:15:20.819 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-12-24 00:15:20.854 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-12-24 00:15:58.151 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarting:55 -Starting EthenSpringcloudJpaStudyApplicationTests on ethen with PID 8372 (started by ethen in C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study)
+2019-12-24 00:15:58.158 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-24 00:16:00.885 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 00:16:01.027 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 120ms. Found 1 repository interfaces.
+2019-12-24 00:16:01.565 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 00:16:02.015 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-24 00:16:02.275 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-24 00:16:02.591 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-24 00:16:03.498 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-24 00:16:03.509 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-24 00:16:03.834 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-12-24 00:16:03.875 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-24 00:16:05.451 INFO [main]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-24 00:16:05.467 INFO [main]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:16:06.829 WARN [main]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-24 00:16:07.449 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:16:08.380 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarted:61 -Started EthenSpringcloudJpaStudyApplicationTests in 13.314 seconds (JVM running for 16.325)
+2019-12-24 00:18:13.912 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:18:13.917 INFO [SpringContextShutdownHook]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:18:13.921 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-12-24 00:18:13.938 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-12-24 00:22:42.028 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarting:55 -Starting EthenSpringcloudJpaStudyApplicationTests on ethen with PID 7616 (started by ethen in C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study)
+2019-12-24 00:22:42.033 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-24 00:22:44.244 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 00:22:44.449 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 185ms. Found 1 repository interfaces.
+2019-12-24 00:22:45.970 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 00:22:46.796 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-24 00:22:47.146 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-24 00:22:47.605 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-24 00:22:48.015 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-24 00:22:48.025 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-24 00:22:48.483 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-12-24 00:22:48.533 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-24 00:22:50.923 INFO [main]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-24 00:22:50.949 INFO [main]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:22:53.299 WARN [main]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-24 00:22:54.115 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:22:55.618 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplicationTests.logStarted:61 -Started EthenSpringcloudJpaStudyApplicationTests in 16.357 seconds (JVM running for 20.417)
+2019-12-24 00:26:08.553 WARN [HikariPool-1 housekeeper]com.zaxxer.hikari.pool.HikariPool.run:787 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m19s968ms317µs900ns).
+2019-12-24 00:26:08.744 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 00:26:08.747 INFO [SpringContextShutdownHook]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-24 00:26:08.760 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-12-24 00:26:08.771 INFO [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.

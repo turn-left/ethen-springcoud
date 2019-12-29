@@ -1,0 +1,26 @@
+2019-12-20 23:22:51.320 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplication.logStarting:55 -Starting EthenSpringcloudJpaStudyApplication on ethen with PID 15184 (C:\space-work\workspace_2019\ethen-springcloud\ethen-springcloud-jpa-study\target\classes started by ethen in C:\space-work\workspace_2019\ethen-springcloud)
+2019-12-20 23:22:51.326 INFO [main]com.ethen.EthenSpringcloudJpaStudyApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2019-12-20 23:22:52.568 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-20 23:22:52.651 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:184 -Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2019-12-20 23:22:53.009 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-20 23:22:53.407 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 10010 (http)
+2019-12-20 23:22:53.419 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-10010"]
+2019-12-20 23:22:53.420 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-12-20 23:22:53.421 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-20 23:22:53.580 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-12-20 23:22:53.581 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2154 ms
+2019-12-20 23:22:53.809 INFO [main]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-20 23:22:53.942 INFO [main]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-20 23:22:54.267 INFO [main]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-20 23:22:54.462 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-20 23:22:54.463 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-20 23:22:54.632 WARN [main]o.h.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService:132 -HHH000342: Could not obtain connection to query metadata : Public Key Retrieval is not allowed
+2019-12-20 23:22:54.649 INFO [main]org.hibernate.dialect.Dialect.<init>:172 -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-12-20 23:22:55.883 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-12-20 23:22:55.883 WARN [main]com.zaxxer.hikari.util.DriverDataSource.<init>:70 -Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-20 23:22:55.890 WARN [main]org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions:137 -SQL Error: 0, SQLState: 08001
+2019-12-20 23:22:55.901 WARN [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2019-12-20 23:22:55.903 INFO [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-12-20 23:22:55.925 INFO [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
