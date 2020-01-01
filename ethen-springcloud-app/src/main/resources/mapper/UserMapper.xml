@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ethen.app.mapper.UserMapper">
+
+    <select id="findByIdRange" resultType="com.ethen.app.dto.UserDto">
+        SELECT
+            t.id,
+            t.age,
+            t.email,
+            t.sex,
+            t.last_name  "lastName",
+            t.first_name "firstName"
+        FROM jpa_user t
+        WHERE t.id BETWEEN #{arg0} AND #{arg1}
+    </select>
+</mapper>
