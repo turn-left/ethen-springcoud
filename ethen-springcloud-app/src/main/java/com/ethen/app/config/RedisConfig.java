@@ -56,13 +56,39 @@ public class RedisConfig {
 
 
     /**
-     * 尽管springboot内置了RedisTemplate<Objcet,Objcet>对象，但泛型不好用，因此自定义一个
+     * 使用fastjson作为redis的序列话框架
      *
      * @param connectionFactory
      * @return
      */
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory connectionFactory) {
+        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
+        redisTemplate.setConnectionFactory(connectionFactory);
+        // 设置key序列化器
+        redisTemplate.setKeySerializer(new com.ethen.app.config.StringRedisSerializer());
+        redisTemplate.setHashKeySerializer(new com.ethen.app.config.StringRedisSerializer());
+        // 设置value序列化器
+        FastJsonRedisSerializer<Object> fastJsonRedisSerializer = new FastJsonRedisSerializer<>(Object.class);
+        redisTemplate.setValueSerializer(fastJsonRedisSerializer);
+        redisTemplate.setHashValueSerializer(fastJsonRedisSerializer);
+        // fixme fastjson在2017年3月爆出了在1.2.24以及之前版本存在远程代码执行高危安全漏洞
+        // 所以要使用ParserConfig.getGlobalInstance().addAccept("com.xiaolyuh.");指定序列化白名单
+        // ParserConfig.getGlobalInstance().addAccept("com.xiaolyuh.");
+        redisTemplate.afterPropertiesSet();
+        return redisTemplate;
+    }
+
+
+    /**
+     * 尽管springboot内置了RedisTemplate<Objcet,Objcet>对象，但泛型不好用，因此自定义一个
+     *
+     * @param connectionFactory
+     * @return
+     */
+    @Deprecated
+    @Bean(name = "redisTemplate2")
+    public RedisTemplate<String, Object> redisTemplate2(RedisConnectionFactory connectionFactory) {
         RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
         redisTemplate.setConnectionFactory(connectionFactory);
         // key采用StringRedisSerializer序列化
